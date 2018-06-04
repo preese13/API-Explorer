@@ -57,3 +57,16 @@ C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.Assembly
 C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
 C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.dll
 C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\API-Explorer\bin\Debug\netcoreapp2.0\mockAPI.xml
+C:\Users\reesp\personal\API-Explorer\bin\Debug\netcoreapp2.0\mockAPI.deps.json
+C:\Users\reesp\personal\API-Explorer\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.json
+C:\Users\reesp\personal\API-Explorer\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+C:\Users\reesp\personal\API-Explorer\bin\Debug\netcoreapp2.0\mockAPI.dll
+C:\Users\reesp\personal\API-Explorer\bin\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\mockAPI.csprojResolveAssemblyReference.cache
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\mockAPI.dll
+C:\Users\reesp\personal\API-Explorer\obj\Debug\netcoreapp2.0\mockAPI.pdb

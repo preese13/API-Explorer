@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "aaa5bfe403a68446bdfb1b32262fc77ec187f042"
+    "signature": "21ed6c3bc3f17f7c6f995192a13247d159ec4a4a"
   },
   "compilationOptions": {
     "defines": [
@@ -28,6 +28,7 @@
           "Microsoft.AspNetCore.All": "2.0.3",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.0.3",
           "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": "2.1.0",
+          "Microsoft.AspNetCore.Rewrite": "2.1.0",
           "Microsoft.AspNetCore.StaticFiles": "2.0.1",
           "Microsoft.EntityFrameworkCore.InMemory": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
@@ -257,7 +258,7 @@
           "Microsoft.AspNetCore.ResponseCaching": "2.0.1",
           "Microsoft.AspNetCore.ResponseCaching.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.ResponseCompression": "2.0.1",
-          "Microsoft.AspNetCore.Rewrite": "2.0.1",
+          "Microsoft.AspNetCore.Rewrite": "2.1.0",
           "Microsoft.AspNetCore.Routing": "2.1.0",
           "Microsoft.AspNetCore.Routing.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Server.HttpSys": "2.0.1",
@@ -1181,7 +1182,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCompression.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Rewrite/2.0.1": {
+      "Microsoft.AspNetCore.Rewrite/2.1.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.1.0",
@@ -4643,12 +4644,12 @@
       "path": "microsoft.aspnetcore.responsecompression/2.0.1",
       "hashPath": "microsoft.aspnetcore.responsecompression.2.0.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Rewrite/2.0.1": {
+    "Microsoft.AspNetCore.Rewrite/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oYyeTr6s2iTSMbriJt3eOLfdzDaiIVtP5ECFGUZx20hGF6elBabq2rhR9sAoc4vQNwBCirT03ndcCK7VZtAUVw==",
-      "path": "microsoft.aspnetcore.rewrite/2.0.1",
-      "hashPath": "microsoft.aspnetcore.rewrite.2.0.1.nupkg.sha512"
+      "sha512": "sha512-TejSq79p0U7DZ1WAGZFhA843KbChT8oOalcOM/ar5l59N+rQCOzqwSv+7NzCc/+kUk6suX4inkiMRLHj98sBcA==",
+      "path": "microsoft.aspnetcore.rewrite/2.1.0",
+      "hashPath": "microsoft.aspnetcore.rewrite.2.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Routing/2.1.0": {
       "type": "package",
