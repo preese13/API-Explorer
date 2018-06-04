@@ -1,0 +1,11 @@
+C:\Code\Developers\PayrollDocumentation\bin\Release\netcoreapp2.0\mockAPI.deps.json
+C:\Code\Developers\PayrollDocumentation\bin\Release\netcoreapp2.0\mockAPI.runtimeconfig.json
+C:\Code\Developers\PayrollDocumentation\bin\Release\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+C:\Code\Developers\PayrollDocumentation\bin\Release\netcoreapp2.0\mockAPI.dll
+C:\Code\Developers\PayrollDocumentation\bin\Release\netcoreapp2.0\mockAPI.pdb
+C:\Code\Developers\PayrollDocumentation\obj\Release\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+C:\Code\Developers\PayrollDocumentation\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Code\Developers\PayrollDocumentation\obj\Release\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+C:\Code\Developers\PayrollDocumentation\obj\Release\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+C:\Code\Developers\PayrollDocumentation\obj\Release\netcoreapp2.0\mockAPI.dll
+C:\Code\Developers\PayrollDocumentation\obj\Release\netcoreapp2.0\mockAPI.pdb

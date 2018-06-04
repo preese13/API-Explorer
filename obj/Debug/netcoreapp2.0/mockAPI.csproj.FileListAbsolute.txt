@@ -1,0 +1,59 @@
+c:\Users\Patrick Reese\intern\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.deps.json
+c:\Users\Patrick Reese\intern\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.json
+c:\Users\Patrick Reese\intern\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+c:\Users\Patrick Reese\intern\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.dll
+c:\Users\Patrick Reese\intern\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.pdb
+c:\Users\Patrick Reese\intern\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+c:\Users\Patrick Reese\intern\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+c:\Users\Patrick Reese\intern\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+c:\Users\Patrick Reese\intern\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.dll
+c:\Users\Patrick Reese\intern\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.pdb
+c:\Users\Patrick Reese\intern\temp\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.deps.json
+c:\Users\Patrick Reese\intern\temp\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.json
+c:\Users\Patrick Reese\intern\temp\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+c:\Users\Patrick Reese\intern\temp\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.dll
+c:\Users\Patrick Reese\intern\temp\mockAPI\bin\Debug\netcoreapp2.0\mockAPI.pdb
+c:\Users\Patrick Reese\intern\temp\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+c:\Users\Patrick Reese\intern\temp\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+c:\Users\Patrick Reese\intern\temp\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+c:\Users\Patrick Reese\intern\temp\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.dll
+c:\Users\Patrick Reese\intern\temp\mockAPI\obj\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\mock-payroll-api\bin\Debug\netcoreapp2.0\mockAPI.deps.json
+C:\Users\reesp\personal\mock-payroll-api\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.json
+C:\Users\reesp\personal\mock-payroll-api\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+C:\Users\reesp\personal\mock-payroll-api\bin\Debug\netcoreapp2.0\mockAPI.dll
+C:\Users\reesp\personal\mock-payroll-api\bin\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\mockAPI.dll
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\mockAPI.csprojResolveAssemblyReference.cache
+C:\Users\reesp\personal\mock-payroll-api\bin\Debug\netcoreapp2.0\mockAPI.xml
+C:\Users\reesp\personal\mock-payroll-api\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\reesp\personal\mock-api\bin\Debug\netcoreapp2.0\mockAPI.xml
+C:\Users\reesp\personal\mock-api\bin\Debug\netcoreapp2.0\mockAPI.deps.json
+C:\Users\reesp\personal\mock-api\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.json
+C:\Users\reesp\personal\mock-api\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+C:\Users\reesp\personal\mock-api\bin\Debug\netcoreapp2.0\mockAPI.dll
+C:\Users\reesp\personal\mock-api\bin\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\mockAPI.csprojResolveAssemblyReference.cache
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\mockAPI.dll
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Users\reesp\personal\mock-api\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Code\Developers\PayrollDocumentation\bin\Debug\netcoreapp2.0\mockAPI.xml
+C:\Code\Developers\PayrollDocumentation\bin\Debug\netcoreapp2.0\mockAPI.deps.json
+C:\Code\Developers\PayrollDocumentation\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.json
+C:\Code\Developers\PayrollDocumentation\bin\Debug\netcoreapp2.0\mockAPI.runtimeconfig.dev.json
+C:\Code\Developers\PayrollDocumentation\bin\Debug\netcoreapp2.0\mockAPI.dll
+C:\Code\Developers\PayrollDocumentation\bin\Debug\netcoreapp2.0\mockAPI.pdb
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.csprojResolveAssemblyReference.cache
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.csproj.CoreCompileInputs.cache
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfoInputs.cache
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.AssemblyInfo.cs
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.dll
+C:\Code\Developers\PayrollDocumentation\obj\Debug\netcoreapp2.0\mockAPI.pdb

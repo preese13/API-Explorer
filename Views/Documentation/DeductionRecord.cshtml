@@ -1,0 +1,159 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Index";
+    string header = "Deduction Record";
+    string field1 = "CompanyId";
+    string field1DataType = "String";
+    string field1Description = "Payroll company identifier supplied by payroll partner.   Example:  CORP1";
+    string field2 = "PayrollId";
+    string field2DataType = "String";
+    string field2Description = "Unique employee identifier supplied by the payroll partner.  Example:  9876543";
+    string field3 = "Benefit";
+    string field3DataType = "String";
+    string field3Description = "Description of the benefit";
+    string field4 = "DeductionCode";
+    string field4DataType = "String";
+    string field4Description = "The deduction code.  An option for companies to setup mapping to customized deductions will also be created.  Example:  MED ";
+    string field5 = "IsPostTax";
+    string field5DataType = "Boolean";
+    string field5Description = "Currently only applies to Long Term Disability – all other benefits are Pre-Tax.  Comment:  May be used to interpret as an earning code for post-tax deduction ";
+    string field6 = "Deduction Frequency";
+    string field6DataType = "Integer";
+    string field6Description = "Number of regular deductions for this plan in a 12 month period Example: 24";
+    string field7 = "TypeOfDeduction ";
+    string field7DataType = "String";
+    string field7Description = "Per Pay, Per Month or Percentage ";
+    string field8 = "EmployeePerPayAmmount";
+    string field8DataType = "Decimal";
+    string field8Description = "Deduction amount to be taken on a per pay";
+    string field9 = "EmployerPerPayAmount";
+    string field9DataType = "Decimal";
+    string field9Description = "Period basis.  This is a flat dollar amount.   ";
+    string field10 = "EmployeeMonthlyAmount";
+    string field10DataType = "Decimal";
+    string field10Description = "Monthly cost of benefit paid by employee";
+    string field11 = "EmployerMonthlyAmount";
+    string field11DataType = "Decimal";
+    string field11Description = "Monthly Cost of benfit paid by employer";
+    string field12 = "DeductionPercentage";
+    string field12DataType = "Decimal";
+    string field12Description = "If deduction is a percent of salary ";
+    string field13 = "EnrollmentStartDate";
+    string field13DataType = "Date";
+    string field13Description = "Start date of the employee’s benefit enrollment";
+    string field14 = "DeductionStartDate";
+    string field14DataType = "Date";
+    string field14Description = "Start date of the employee’s deduction.  Payroll firm should begin deduction on the next paycheck for the employee ";
+    string field15 = "EnrollmentEndDate";
+    string field15DataType = "Date";
+    string field15Description = "An EndDate is only included when an employee no longer has a benefit of a particular coverage type.  For example, if an employee changes from Employee Only to Family within Medical, this record will not include an EndDate.  If employee is ending medical coverage entirely, this field will include an end date";
+    string field16 = "PlanYearBegin";
+    string field16DataType = "Date";
+    string field16Description = "Start date for this plan year";
+    string field17 = "PlanYearEnd";
+    string field17DataType = "Date";
+    string field17Description = "End date for this plan year:  may be used for determining changes in deduction amounts during a renewal period ";
+    string field18 = "ModifiedDate";
+    string field18DataType = "Date";
+    string field18Description = "Date and time the record was modified ";
+}
+
+<h1>@header</h1>
+<div class="tableContainer">
+    <div class="tableRow">
+        <p><span id="bold">Field</span> </p>
+        <p><span id="bold">Data Type</span> </p>
+        <p><span id="bold">Description</span> </p>
+    </div>
+<div class="tableRow">
+    <p>@field1</p>
+    <p>@field1DataType</p>
+    <p>@field1Description</p>
+</div>
+<div class="tableRow">
+    <p>@field2</p>
+    <p>@field2DataType</p>
+    <p>@field2Description</p>
+</div>
+<div class="tableRow">
+    <p>@field3</p>
+    <p>@field3DataType</p>
+    <p>@field3Description</p>
+</div>
+<div class="tableRow">
+    <p>@field4</p>
+    <p>@field4DataType</p>
+    <p>@field4Description</p>
+</div>
+<div class="tableRow">
+    <p>@field5</p>
+    <p>@field5DataType</p>
+    <p>@field5Description</p>
+</div>
+<div class="tableRow">
+    <p>@field6</p>
+    <p>@field6DataType</p>
+    <p>@field6Description</p>
+</div>
+<div class="tableRow">
+    <p>@field7</p>
+    <p>@field7DataType</p>
+    <p>@field7Description</p>
+</div>
+<div class="tableRow">
+    <p>@field8</p>
+    <p>@field8DataType</p>
+    <p>@field8Description</p>
+</div>
+<div class="tableRow">
+    <p>@field9</p>
+    <p>@field9DataType</p>
+    <p>@field9Description</p>
+</div>
+<div class="tableRow">
+    <p>@field10</p>
+    <p>@field10DataType</p>
+    <p>@field10Description</p>
+</div>
+<div class="tableRow">
+    <p>@field11</p>
+    <p>@field11DataType</p>
+    <p>@field11Description</p>
+</div>
+<div class="tableRow">
+    <p>@field12</p>
+    <p>@field12DataType</p>
+    <p>@field12Description</p>
+</div>
+<div class="tableRow">
+    <p>@field13</p>
+    <p>@field13DataType</p>
+    <p>@field13Description</p>
+</div>
+<div class="tableRow">
+    <p>@field14</p>
+    <p>@field14DataType</p>
+    <p>@field14Description</p>
+</div>
+<div class="tableRow">
+    <p>@field15</p>
+    <p>@field15DataType</p>
+    <p>@field15Description</p>
+</div>
+<div class="tableRow">
+    <p>@field16</p>
+    <p>@field16DataType</p>
+    <p>@field16Description</p>
+</div>
+<div class="tableRow">
+    <p>@field17</p>
+    <p>@field17DataType</p>
+    <p>@field17Description</p>
+</div>
+<div class="tableRow">
+    <p>@field18</p>
+    <p>@field18DataType</p>
+    <p>@field18Description</p>
+</div>
+
+</div>

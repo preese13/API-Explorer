@@ -1,0 +1,381 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Index";
+    string header = "Employee Records";
+    string field1 = "CompanyId";
+    string field1DataType = "String";
+    string field1Description = "Payroll company identifier supplied by payroll partner.   Example:  CORP1 ";
+    string field2 = "PayRollId";
+    string field2DataType = "String";
+    string field2Description = "Unique employee identifier supplied by the payroll partner.  Example:  9876543 ";
+    string field3 = "TimeClockId";
+    string field3DataType = "String";
+    string field3Description = "Unique ID assigned to an employee and supplied by the payroll partner.  Example:  9876543";
+    string field4 = "SSN";
+    string field4DataType = "String";
+    string field4Description = "Employee Social Security Number.  Only sent if the PayrollId is not available.  Note: upon receiving a new hire record from Employee Navigator, Payroll vendor should respond with the PayrollId. When a new hire record is sent from Payroll to EN, the SSN and PayrollId should be included in the initial notification.  ";
+    string field5 = "FirstName";
+    string field5DataType = "String";
+    string field5Description = "Employee First Name";
+    string field6 = "MiddleName";
+    string field6DataType = "String";
+    string field6Description = "Employee Middle Name";
+    string field7 = "LastName";
+    string field7DataType = "String";
+    string field7Description = "Employee Last Name";
+    string field8 = "Suffix";
+    string field8DataType = "String";
+    string field8Description = "Employee Suffix Valid Values are:  CPA CRNP D.O. DDS DMD II III IV JD Jr. MD PA-C PhD RN Sr. V ";
+    string field9 = "DOB";
+    string field9DataType = "Date";
+    string field9Description = "Employee Date of Birth";
+    string field10 = "Gender";
+    string field10DataType = "String";
+    string field10Description = "M or F";
+    string field11 = "MaritalStatus";
+    string field11DataType = "String";
+    string field11Description = "This is not the tax status.  Valid values include:  Divorced, Domestic Partner, Former spouse – court ordered coverage, Married Separated, Single, Widowed";
+    string field12 = "PayrollGroup";
+    string field12DataType = "String";
+    string field12Description = "Payroll group to which employee is assigned";
+    string field13 = "Payfrequency";
+    string field13DataType = "String";
+    string field13Description = "Valid Values Include:  Bi-Weekly(26 Periods), Bi-Weekly(25 Periods), Bi-Weekly(24 Periods), Bi-Weekly(22 Periods),  Monthly(12 Periods), Semi-Monthly(24 Periods), Weekly(52 Periods), Weekly(48 Periods),  Other(9 Periods),  Other(10 Periods),  Other(11 Periods),  Other(20 Periods),  Other(21 Periods), Other(35 Periods) ";
+    string field14 = "BusinessUnit *";
+    string field14DataType = "String";
+    string field14Description = "The employee’s Business Unit.  A Business Unit will have a single tax id assigned to it    Example: Headquarters ";
+    string field15 = "Office *";
+    string field15DataType = "String";
+    string field15Description = "The employee's office location";
+    string field16 = "Department *";
+    string field16DataType = "String";
+    string field16Description = "The employee's Department";
+    string field17 = "Division *";
+    string field17DataType = "String";
+    string field17Description = "The employee's division.   Example: Western Region";
+    string field18 = "Union";
+    string field18DataType = "Boolean";
+    string field18Description = "Whether or not the employee is part of a union";
+    string field19 = "JobTitle";
+    string field19DataType = "String";
+    string field19Description = "Employee's job title";
+    string field20 = "FullTime";
+    string field20DataType = "Boolean";
+    string field20Description = "Is employee full time";
+    string field21 = "StatutoryClass";
+    string field21DataType = "String";
+    string field21Description = "Classifications used to determine employee’s status from a federal perspective and used to determine the taxability of benefits      Valid values:  Sole Proprietor Partner in a Partnership,  2% Shareholder of an S Corporation,  Direct lineal descendent to a S Corp Shareholder,   Bona Fide Volunteer,  Federal Work Study";
+    string field22 = "Seasonal";
+    string field22DataType = "Boolean";
+    string field22Description = "Indicates whether or not employee works less than 6 months of the year (this is for ACA purposes)";
+    string field23 = "AcaClassification";
+    string field23DataType = "String";
+    string field23Description = "Employee’s classification for ACA purposes Valid Values: Eligible,  Variable hour,  Ineligible, ";
+    string field24 = "UsCitizen";
+    string field24DataType = "Boolean";
+    string field24Description = "Indicates whether employee is a citizen of the U.S.";
+    string field25 = "HireDate";
+    string field25DataType = "Date";
+    string field25Description = "Effective date of the most recent date employee was hired. A re-hire in Employee Navigator gets a new HireDate.";
+    string field26 = "EmploymentStatus";
+    string field26DataType = "String";
+    string field26Description = "Indicates whether employee is currently employed or has been terminated.   Valid Values:  Active, Terminated ";
+    string field46 = "WorkerTaxStatus";
+    string field46DataType = "String";
+    string field46Description = "Indicates whether record is for W2 employee or a 1099";
+    string field27 = "TerminationDate";
+    string field27DataType = "Date";
+    string field27Description = "Effective date of employment termination.  A termination date may ONLY be sent on a terminated employee.  Do not include a termination date for an active employee or an employee being re-hired.  ";
+    string field28 = "TerminationReason";
+    string field28DataType = "String";
+    string field28Description = "Reason for employee termination.  In Employee Navigator, these reasons determine whether the termination was a COBRA qualifying event.   Valid Values are:  Death of Employee, Gross Misconduct(not eligible for COBRA), Involuntary Termination(18 months), No Longer Eligible, Reduction in Force(18 months), Retirement(18 months),  Voluntary Termination(18 months),  Note: If Payroll system termination reasons do not match Employee Navigator’s reasons, a default reason of Voluntary Termination (18 months) will be automatically applied in Employee Navigator";
+    string field29 = "PayEffectiveDate";
+    string field29DataType = "Date";
+    string field29Description = "Date when rate of pay took effect";
+    string field30 = "CompensationBasis";
+    string field30DataType = "String";
+    string field30Description = "Indicator of whether employee is hourly or salaried. Valid values:  Salary, Hourly ";
+    string field31 = "AnnualBaseSalary";
+    string field31DataType = "Decimal";
+    string field31Description = "Annual salary ";
+    string field32 = "BaseHourlyRate";
+    string field32DataType = "Decimal";
+    string field32Description = "Hourly rate ";
+    string field33 = "HoursPerWeek";
+    string field33DataType = "Decimal";
+    string field33Description = "Standard hours employee is expected to work each week";
+    string field34 = "BenefitSalary";
+    string field34DataType = "Decimal";
+    string field34Description = "Employee Benefit Salary used to calculate benefits.";
+    string field35 = "BenefitSalaryEffectiveDate ";
+    string field35DataType = "Date";
+    string field35Description = "Date when benefit salary took effect";
+    string field36= "Address1";
+    string field36DataType = "string";
+    string field36Description = "Employee address line 1";
+    string field37 = "Address2";
+    string field37DataType = "String";
+    string field37Description = "Employee address line 2";
+    string field38 = "Address3";
+    string field38DataType = "String";
+    string field38Description = "Employee address line 3";
+    string field39 = "City";
+    string field39DataType = "String";
+    string field39Description = "Employee address city";
+    string field40 = "County";
+    string field40DataType = "String";
+    string field40Description = "Employee address county";
+    string field41 = "State";
+    string field41DataType = "String";
+    string field41Description = "Employee address state";
+    string field42 = "Zip";
+    string field42DataType = "string";
+    string field42Description = "Zip or Zip+4     Example:  20814 or 20814-4804 ";
+    string field43 = "Country";
+    string field43DataType = "String";
+    string field43Description = "ISO 3166 A2";
+    string field44 = "Email";
+    string field44DataType = "String";
+    string field44Description = "Employee primary email address (consider this to be the work email address) ";
+    string field45 = "Phone";
+    string field45DataType = "String";
+    string field45Description = "Employee primary phone number (consider this to be the home phone).  Any formatting is supported; including international and extensions";
+    string footnote = "* Employee Navigator will be passing these data elements over but does not supply mapping tool at this time. Payroll provider may create custom mapping tool or employer (and/or broker) may create identical class structure in each system. We will send error message if values do not match. ";
+
+}
+
+<h1>@header</h1>
+<div class="tableContainer">
+    <div id="bold" class="tableRow">
+    <p>Field</p>
+    <p>Data Type</p>
+    <p>Description</p>
+</div>
+<div class="tableRow">
+    <p>@field1</p>
+    <p>@field1DataType</p>
+    <p>@field1Description</p>
+</div>
+<div class="tableRow">
+    <p>@field2</p>
+    <p>@field2DataType</p>
+    <p>@field2Description</p>
+</div>
+<div class="tableRow">
+    <p>@field3</p>
+    <p>@field3DataType</p>
+    <p>@field3Description</p>
+</div>
+<div class="tableRow">
+    <p>@field4</p>
+    <p>@field4DataType</p>
+    <p>@field4Description</p>
+</div>
+<div class="tableRow">
+    <p>@field5</p>
+    <p>@field5DataType</p>
+    <p>@field5Description</p>
+</div>
+<div class="tableRow">
+    <p>@field6</p>
+    <p>@field6DataType</p>
+    <p>@field6Description</p>
+</div>
+<div class="tableRow">
+    <p>@field7</p>
+    <p>@field7DataType</p>
+    <p>@field7Description</p>
+</div>
+<div class="tableRow">
+    <p>@field8</p>
+    <p>@field8DataType</p>
+    <p>@field8Description</p>
+</div>
+<div class="tableRow">
+    <p>@field9</p>
+    <p>@field9DataType</p>
+    <p>@field9Description</p>
+</div>
+<div class="tableRow">
+    <p>@field10</p>
+    <p>@field10DataType</p>
+    <p>@field10Description</p>
+</div>
+<div class="tableRow">
+    <p>@field11</p>
+    <p>@field11DataType</p>
+    <p>@field11Description</p>
+</div>
+<div class="tableRow">
+    <p>@field12</p>
+    <p>@field12DataType</p>
+    <p>@field12Description</p>
+</div>
+<div class="tableRow">
+    <p>@field13</p>
+    <p>@field13DataType</p>
+    <p>@field13Description</p>
+</div>
+<div class="tableRow">
+    <p>@field14</p>
+    <p>@field14DataType</p>
+    <p>@field14Description</p>
+</div>
+<div class="tableRow">
+    <p>@field15</p>
+    <p>@field15DataType</p>
+    <p>@field15Description</p>
+</div>
+<div class="tableRow">
+    <p>@field16</p>
+    <p>@field16DataType</p>
+    <p>@field16Description</p>
+</div>
+<div class="tableRow">
+    <p>@field17</p>
+    <p>@field17DataType</p>
+    <p>@field17Description</p>
+</div>
+<p class="noteBorder" id="bold">@footnote</p>
+</div>
+<div class="tableRow">
+    <p>@field18<p>
+    <p>@field18DataType</p>
+    <p>@field18Description</p>
+</div>
+<div class="tableRow">
+    <p>@field19</p>
+    <p>@field19DataType</p>
+    <p>@field19Description</p>
+</div>
+<div class="tableRow">
+    <p>@field20</p>
+    <p>@field20DataType</p>
+    <p>@field20Description</p>
+</div>
+<div class="tableRow">
+    <p>@field21</p>
+    <p>@field21DataType</p>
+    <p>@field21Description</p>
+</div>
+<div class="tableRow">
+    <p>@field22</p>
+    <p>@field22DataType</p>
+    <p>@field22Description</p>
+</div>
+<div class="tableRow">
+    <p>@field23</p>
+    <p>@field23DataType</p>
+    <p>@field23Description</p>
+</div>
+<div class="tableRow">
+    <p>@field24</p>
+    <p>@field24DataType</p>
+    <p>@field24Description</p>
+</div>
+<div class="tableRow">
+    <p>@field25</p>
+    <p>@field25DataType</p>
+    <p>@field25Description</p>
+</div>
+<div class="tableRow">
+    <p>@field26</p>
+    <p>@field26DataType</p>
+    <p>@field26Description</p>
+</div>
+<div class="tableRow">
+    <p>@field27</p>
+    <p>@field27DataType</p>
+    <p>@field27Description</p>
+</div>
+<div class="tableRow">
+    <p>@field28</p>
+    <p>@field28DataType</p>
+    <p>@field28Description</p>
+</div>
+<div class="tableRow">
+    <p>@field29</p>
+    <p>@field29DataType</p>
+    <p>@field29Description</p>
+</div>
+<div class="tableRow">
+    <p>@field30</p>
+    <p>@field30DataType</p>
+    <p>@field30Description</p>
+</div>
+<div class="tableRow">
+    <p>@field31</p>
+    <p>@field31DataType</p>
+    <p>@field31Description</p>
+</div>
+<div class="tableRow">
+    <p>@field32</p>
+    <p>@field32DataType</p>
+    <p>@field32Description</p>
+</div>
+<div class="tableRow">
+    <p>@field33</p>
+    <p>@field33DataType</p>
+    <p>@field33Description</p>
+</div>
+<div class="tableRow">
+    <p>@field34</p>
+    <p>@field34DataType</p>
+    <p>@field34Description</p>
+</div>
+<div class="tableRow">
+    <p>@field35</p>
+    <p>@field35DataType</p>
+    <p>@field35Description</p>
+</div>
+<div class="tableRow">
+    <p>@field36<p>
+    <p>@field36DataType</p>
+    <p>@field36Description</p>
+</div>
+<div class="tableRow">
+    <p>@field37/p>
+    <p>@field37DataType</p>
+    <p>@field37Description</p>
+</div>
+<div class="tableRow">
+    <p>@field38</p>
+    <p>@field38DataType</p>
+    <p>@field38Description</p>
+</div>
+<div class="tableRow">
+    <p>@field39</p>
+    <p>@field39DataType</p>
+    <p>@field39Description</p>
+</div>
+<div class="tableRow">
+    <p>@field40</p>
+    <p>@field40DataType</p>
+    <p>@field40Description</p>
+</div>
+<div class="tableRow">
+    <p>@field41</p>
+    <p>@field41DataType</p>
+    <p>@field41Description</p>
+</div>
+<div class="tableRow">
+    <p>@field42</p>
+    <p>@field42DataType</p>
+    <p>@field42Description</p>
+</div>
+<div class="tableRow">
+    <p>@field43</p>
+    <p>@field43DataType</p>
+    <p>@field43Description</p>
+</div>
+<div class="tableRow">
+    <p>@field44</p>
+    <p>@field44DataType</p>
+    <p>@field44Description</p>
+</div>
+<div class="tableRow">
+    <p>@field45</p>
+    <p>@field45DataType</p>
+    <p>@field45Description</p>
+</div>
+</div>

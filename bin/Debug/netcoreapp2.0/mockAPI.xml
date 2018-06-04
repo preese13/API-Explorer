@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mockAPI</name>
+    </assembly>
+    <members>
+        <member name="M:mockAPI.Controllers.DeductionController.Create(mockAPI.Models.Deduction)">
+            <response code="200">Product created</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.DeductionController.GetById(System.String)">
+            <response code="200">Product fetched</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.DeductionController.Put(mockAPI.Models.Deduction,System.String)">
+            <response code="200">Product updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.EmployeeController.Create(mockAPI.Models.Employee)">
+            <response code="200">Product created</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.EmployeeController.EmployeeId(System.String,System.String)">
+            <response code="200">Product fetched</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.EmployeeController.Put(mockAPI.Models.Employee,System.String,System.String)">
+            <response code="200">Product updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.IncomingEmployeeController.GetById(System.String,System.String)">
+            <response code="200">Product fetched</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.OutgoingEmployeeController.Create(OutgoingEmployee)">
+            <summary>
+            Adds an employee to the DB
+            </summary>
+            <response code="200">Product created</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.OutgoingEmployeeController.Put(Partner1UpdateData,System.String,System.String)">
+            <response code="200">Product updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.Partner1DeductionController.Create(Partner1Deduction)">
+            <response code="200">Product created</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.Partner1DeductionController.Put(Partner1Deduction)">
+            <response code="200">Product updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.Partner2DeductionController.Create(Partner2Deduction,System.String)">
+            <response code="200">Product created</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+        <member name="M:mockAPI.Controllers.Partner2DeductionController.Put(Partner2Deduction,System.String)">
+            <response code="200">Product updated</response>
+            <response code="401">Unauthorized</response>
+            <response code="403">Forbidden</response>
+        </member>
+    </members>
+</doc>

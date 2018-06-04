@@ -1,0 +1,149 @@
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/api/swagger-ui.css">
+  <link rel="icon" type="image/png" href="/api/favicon32.ico" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/api/favicon16.ico" sizes="16x16" />
+  <link rel="stylesheet" type="text/css" href="/api/custom.css">
+  <style>
+    html {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit; 
+    }
+
+    body {
+      margin: 0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+  <nav style="z-index: 1000000; font-family: roboto; font-size: 20px; height: 80px; padding: 0px;">
+    <img src="/api/assets/EmployeeNavigator.png" id="nav-logo">
+    <a id="about"> Definitions</a>
+    <a id="endpoints">Endpoints </a>
+    <a id="models">Models </a>
+    <a href="/Documentation/Index" id="documentation">Documentation </a>
+  </nav>
+
+  <h3 id="endpoints-title">
+    <b>Employee Navigator does not expose these endpoints. </b> While they are based on our API, you will not be able to make actual requests to them.  They are designed as a tool for you to understand how our API works
+  </h3>
+  <div class="endpoint-definitions" style="color:#053769">
+    <h1 style="width: 100%; text-align:center;">Endpoint Definitions</h1>
+    <div class="definition-content">
+      <div class="definition-row">
+        <div class="definition-section">
+          <h2>Add Employee (POST)</h2>
+
+          <p>
+            <span class="what-why">What:</span>
+            This Employee Navigator push resource allows a payroll partner to receive a full individual employee demographic record.
+          </p>
+
+          <p>
+            <span class="what-why">When:</span>
+            It is used when a new hire is processed in Employee Navigator.
+          </p>
+
+        </div>
+        <div class="definition-section">
+          <h2>Update Employee (POST/PUT)</h2>
+
+
+          <p>
+            <span class="what-why">What:</span>
+            This Employee Navigator push resource allows a payroll partner to receive a full individual employee demographic record upon
+            an employee update.
+          </p>
+
+          <p>
+            <span class="what-why">When:</span>
+            For example, if an established employee has an address update in Employee Navigator, this resource will be used.
+          </p>
+        </div>
+
+        </p>
+      </div>
+    </div>
+    <div class="definition-row">
+      <div class="definition-section">
+        <h2>Payroll Deduction (POST)</h2>
+        <p>
+          <span class="what-why">What:</span>
+          This Employee Navigator push resource allows a payroll partner to receive benefit deduction information from Employee Navigator
+          when data changes in the Employee Navigator system.
+          <br>
+          <br>
+          <span class="what-why">When:</span> For example, if an employee has a life event that results in a new deduction amount, this resource
+          will be used.
+        </p>
+      </div>
+
+      <div class="definition-section">
+        <h2>Get Employee (GET)</h2>
+        <p>
+          <span class="what-why">What:</span>
+          This payroll partner push notification allows Employee Navigator to receive notifications from our payroll partners when
+          a new hire is created or one of the agreed upon data exchange fields of an individual employee demographic record
+          has changed in payroll.
+          <br>
+          <br>
+          <span class="what-why">When:</span> For example, if an employee has an update to their middle name in payroll, this resource will be used.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--everythins is rendered inside this div-->
+  <div id="swagger-ui"></div>
+
+  <scirpt src=""></scirpt>
+  <scirpt src=""></scirpt>
+  <scirpt src="/api/swagger-ui-standalone-preset.js"></scirpt>
+  <scirpt src="/api/swagger-ui.js"></scirpt>
+  <script src="/api/custom.js"></script>
+  <script src="/api/swagger-ui-bundle.js">
+  </script>
+  <script src="/api/swagger-ui-standalone-preset.js">
+  </script>
+  <script>
+    window.onload = function () {
+
+      // Build a system
+      const ui = SwaggerUIBundle({
+        url: "http://localhost:5000/swagger/v1/swagger.json",
+        dom_id: '#swagger-ui',
+        deepLinking: true,
+        presets: [
+          SwaggerUIBundle.presets.apis,
+          SwaggerUIStandalonePreset
+        ],
+        plugins: [
+          SwaggerUIBundle.plugins.DownloadUrl
+        ],
+        layout: "StandaloneLayout"
+      })
+
+      window.ui = ui
+    }
+  </script>
+</body>
+
+</html>

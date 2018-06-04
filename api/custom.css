@@ -1,0 +1,416 @@
+/** css classes/ ids are generated in a js file.  its not worth trying to restructure anything -be my guest-  
+instead you're just gonna want to override any styles that you're given*/
+
+html {
+    padding-top: 100px;
+}
+
+.topbar {
+    display: none;
+}
+
+.info {
+    display: none;
+}
+
+a {
+    transition: all .2s ease-in-out;
+}
+
+nav>a:hover {
+    transform: scale(1.1);
+}
+
+/* I honestly dont know where this comes from but it needs to go*/
+
+#model-Partner1UpdateData {
+    display: none;
+}
+
+.swagger-ui .wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+#about {
+    position: fixed;
+    top: 35px;
+    left: 300px;
+    z-index: 11111111;
+    cursor: pointer;
+}
+
+#endpoints {
+    position: fixed;
+    top: 35px;
+    left: 450px;
+    z-index: 11111111;
+    cursor: pointer;
+}
+
+#models {
+    position: fixed;
+    top: 35px;
+    left: 600px;
+    z-index: 11111111;
+    cursor: pointer;
+}
+
+#documentation {
+    position: fixed;
+    top: 35px;
+    left: 750px;
+    z-index: 11111111;
+    cursor: pointer;
+    color: #003366;
+}
+
+#nav-logo {
+    position: fixed;
+    top: 5px;
+    left: 50px;
+    z-index: 11111111;
+    height: 70px;
+}
+
+@media only screen and (max-width: 1050px) {
+    #about {
+        position: fixed;
+        top: 35px;
+        left: 200px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #endpoints {
+        position: fixed;
+        top: 35px;
+        left: 300px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #models {
+        position: fixed;
+        top: 35px;
+        left: 400px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #documentation {
+        position: fixed;
+        top: 35px;
+        left: 500px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #nav-logo {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 11111111;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #about {
+        position: fixed;
+        top: 35px;
+        left: 120px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    #endpoints {
+        position: fixed;
+        top: 35px;
+        left: 200px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    #models {
+        position: fixed;
+        top: 35px;
+        left: 280px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #documentation {
+        position: fixed;
+        top: 35px;
+        left: 360px;
+        z-index: 11111111;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    #nav-logo {
+        position: fixed;
+        top: 30px;
+        left: 20px;
+        z-index: 11111111;
+        height: 30px;
+    }
+}
+
+
+/*get method button*/
+
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+    background: #2BB415;
+}
+
+/*post method button*/
+
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+    background-color: #016A9F;
+}
+
+/*put method button*/
+
+.swagger-ui .opblock.opblock-put .opblock-summary-method {
+    background: rgb(159, 21, 180);
+}
+
+.opblock-post {
+    display: none;
+    border: 1px solid #016A9F !important;
+    background: rgb(1, 106, 159, .1)
+}
+
+.opblock-get {
+    display: none;
+    border: 1px solid #2BB415 !important;
+    background: rgb(43, 180, 21, .1)
+}
+
+.opblock-put {
+    display: none;
+    border: 1px solid rgb(159, 21, 180) !important;
+    background: rgb(159, 21, 180, .1) !important;
+}
+
+.swagger-ui .opblock-tag {
+    display: none;
+}
+
+.expand-operation {
+    display: none;
+}
+
+/*all those text sections*/
+
+.markdown {
+    color: red;
+}
+
+.microlight {}
+
+.curl {}
+
+.swagger-ui .opblock-body pre {}
+
+.swagger-ui .response-col_description__inner div.markdown,
+.swagger-ui .response-col_description__inner div.renderedMarkdown {}
+
+/*all the select boxes*/
+
+select {}
+
+/*section header... just change it in the original css file idk why it wont work*/
+
+.swagger-ui .opblock .opblock-section-header {
+    background: white !important;
+}
+
+.swagger-ui .btn.authorize {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    color: #2BB415 !important;
+    border: 2px solid #2BB415 !important;
+    z-index: 9999;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #2BB415 !important;
+}
+
+/*top table in endpoint sections=*/
+
+.swagger-ui .table-container {
+    background: inherit;
+}
+
+/**wraps the execute button*/
+
+.execute-wrapper {}
+
+.swagger-ui .btn.execute {}
+
+/**response section container*/
+
+.responses-inner {}
+
+/**the container for the authorize button. hidden from view, but the authorize button is kept and given fixed position */
+
+.scheme-container {
+    position: fixed;
+    height: 80px;
+    top: -1000px;
+
+    z-index: 2223423452345;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/**changes the background color for EVERYTHING.  other values are opaque or something, idk, dont feel like taking the 30s to investigate, despite taking the time to 
+  write this loooooooooong ass comment*/
+
+.swagger-ui {}
+
+b {
+    color: #9f0e01;
+}
+
+#endpoints-title {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Poppins', sans-serif;
+    color: #105685;
+    display: none;
+}
+
+.current {
+    font-weight: bold;
+    color: #016A9F;
+    text-decoration: underline;
+    text-decoration-color: #016A9F;
+}
+
+nav {
+    width: 99vw;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15)
+}
+
+/** FOOTER*/
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+.footerSection {
+    text-align: center;
+}
+
+.footerSection>a {
+    transition: none;
+    font-size: 14px;
+}
+
+.footerSection>a:hover {
+    text-decoration: underline;
+    text-decoration-color: #5CA84E;
+}
+
+#footerLogo {
+    width: 20vw;
+}
+
+a {
+    text-decoration: none;
+    color: #003366;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+    address {
+        font-size: 10px;
+    }
+    .footerH2 {
+        font-size: 20px;
+    }
+    .footerSection>a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    footer {
+        display: none;
+    }
+}
+
+.endpoint-definitions {
+    display: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #3b4151
+}
+
+.definition-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.definition-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.definition-section {
+    width: 50%;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.markdown {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.what-why {
+    font-size: 18px;
+    font-weight: bold;
+}

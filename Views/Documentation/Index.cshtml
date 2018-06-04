@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+    ViewData["Title"] = "Index";
+    string header = "Overview";
+    string paragraph1 = "Employee Navigator’s API transforms payroll integrations from a file-based data exchange with error reporting into a platform that seamlessly connects applications for HR, finance and other important back office functions. ";
+    string paragraph2 = " The immediate benefit of enabling payroll to “talk” to Employee Navigator is efficiency. It eliminates double data entry for customers or importing and exporting error-ridden files. By eliminating all that extra work, Employee Navigator has reduced errors, which allows everyone to do what they do best. Business owners can focus on motivating and rewarding people, and insurance brokers can focus on offering a full range of benefits to their employees and not worry about the impact on their customers’ payroll department as the number of voluntary benefits increase. Everybody wins. ";
+    string question = "What is the benefit for payroll companies? ";
+    string answer = " There is no immediate efficiency gained for payroll companies since the API saves HR from having to enter data into multiple system; however, it will attract and retain customers who are using the API and decrease the lead time from prospect to close. ";
+    string listIntro = "Employee Navigator’s Payroll API is a REST-based API with 3 primary functions: ";
+    string listItem1 = "Allows payroll partners to receive employee demographics (including new hires and employee demographic changes) from Employee Navigator. ";
+    string listItem2 = "Allows payroll partners to receive recurring benefit deductions from Employee Navigator.";
+    string listItem3 = "Allows Employee Navigator to receive notification of new hires and employee demographic changes from payroll partners, and request full employee records in response.   ";
+}
+<h1>@header</h1>
+
+<p>@paragraph1</p>
+<p>@paragraph2</p>
+<h3>@question</h3>
+<p>@answer</p>
+<h5 class="listIntro">@listIntro</h5>
+<ul>
+    <li><span id="colorController">@listItem1</span></li></br>
+    <li><span id="colorController">@listItem1</span></li></br>
+    <li><span id="colorController">@listItem1</span></li>
+</ul>
+

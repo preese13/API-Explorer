@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#5CA84E"/>
+    <title>@ViewData["Title"] - apiPartnerResource</title>
+    <link rel="manifest" href="/manifest.json">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,700" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="/api/favicon32.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/api/favicon16.ico" sizes="16x16" />
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <script src="https://use.fontawesome.com/87d692dbe8.js"></script>
+
+    
+</head>
+<body>
+    <nav style="z-index: 1000000; font-family: roboto; color: black; font-size: 20px; height: 80px; padding: 0px;">
+        <img src="~/images/EmployeeNavigator.png" id="nav-logo">
+        <a href="/Documentation/Swagger" id="about"> Definitions</a>
+        <a href="/Documentation/Swagger" id="endpoints">Endpoints </a>
+        <a href="/Documentation/Swagger" style="" id="models">Models </a>
+        <a href="/Documentation/Index" id="documentation">Documentation </a>
+    </nav>
+    <div id="bodyMain">
+        <div id="sideNav">
+            <div class="sideNavRowContainer">
+                <div class="rowItemLeft">
+                    <a href="/Documentation/overview">Overview</a>
+                </div>
+            </div>
+            <div class="sideNavRowContainer">
+
+                <div class="rowItemRight">
+                    <a href="/Documentation/DeductionRecord">Deduction Record</a>
+                </div>
+            </div>
+            <div class="sideNavRowContainer">
+                <div class="rowItemLeft">
+                    <a href="/Documentation/EmployeeRecords">Employee Record</a>
+                </div>
+            </div>
+            <div class="sideNavRowContainer">
+                <div class="rowItemLeft">
+                    <a href="/Documentation/Download">Download Full Documentation</a>
+                </div>
+            </div>
+
+        </div>
+        <div id="renderBody">
+            @RenderBody()
+        </div>
+    </div>
+
+        <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/api/custom.js"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+    </body>
+</html>
