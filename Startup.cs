@@ -40,7 +40,6 @@ namespace mockAPI
 
             services.AddDbContext<EmployeeContext>(opt => opt.UseInMemoryDatabase("Employee"));
             services.AddDbContext<DeductionContext>(opt => opt.UseInMemoryDatabase("Deduction"));
-            services.AddDbContext<IncomingEmployeeContext>(opt => opt.UseInMemoryDatabase("IncomingEmployee"));
             services.AddDbContext<UserContext>(opt => opt.UseInMemoryDatabase("User"));
             services.AddMvc();
 
@@ -78,7 +77,6 @@ namespace mockAPI
 
             services.AddTransient<EmployeeInitializer>();
             services.AddTransient<DeductionInitializer>();
-            services.AddTransient<IncomingEmployeeInitializer>();
             services.AddTransient<UserIntitializer>();
         }
 
@@ -88,7 +86,6 @@ namespace mockAPI
                                 ILoggerFactory loggerFactory,
                                 EmployeeInitializer employeeSeeder,
                                 DeductionInitializer deductionSeeder,
-                                IncomingEmployeeInitializer incomingEmployeeSeeder,
                                 UserIntitializer userSeeder)
         {
 
@@ -118,7 +115,6 @@ namespace mockAPI
 
             employeeSeeder.Seed().Wait();
             deductionSeeder.Seed().Wait();
-            incomingEmployeeSeeder.Seed().Wait();
             userSeeder.Seed().Wait();
         }
     }

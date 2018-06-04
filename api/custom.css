@@ -2,7 +2,7 @@
 instead you're just gonna want to override any styles that you're given*/
 
 html {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .topbar {
@@ -32,7 +32,6 @@ nav>a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    padding-top: 20px;
 }
 
 #about {

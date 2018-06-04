@@ -34,43 +34,5 @@
             <response code="401">Unauthorized</response>
             <response code="403">Forbidden</response>
         </member>
-        <member name="M:mockAPI.Controllers.IncomingEmployeeController.GetById(System.String,System.String)">
-            <response code="200">Product fetched</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
-        <member name="M:mockAPI.Controllers.OutgoingEmployeeController.Create(OutgoingEmployee)">
-            <summary>
-            Adds an employee to the DB
-            </summary>
-            <response code="200">Product created</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
-        <member name="M:mockAPI.Controllers.OutgoingEmployeeController.Put(Partner1UpdateData,System.String,System.String)">
-            <response code="200">Product updated</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
-        <member name="M:mockAPI.Controllers.Partner1DeductionController.Create(Partner1Deduction)">
-            <response code="200">Product created</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
-        <member name="M:mockAPI.Controllers.Partner1DeductionController.Put(Partner1Deduction)">
-            <response code="200">Product updated</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
-        <member name="M:mockAPI.Controllers.Partner2DeductionController.Create(Partner2Deduction,System.String)">
-            <response code="200">Product created</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
-        <member name="M:mockAPI.Controllers.Partner2DeductionController.Put(Partner2Deduction,System.String)">
-            <response code="200">Product updated</response>
-            <response code="401">Unauthorized</response>
-            <response code="403">Forbidden</response>
-        </member>
     </members>
 </doc>
