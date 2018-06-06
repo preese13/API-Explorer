@@ -203,7 +203,7 @@ namespace mockAPI.Controllers {
         public IActionResult Download () {
             if (Authorize ()) {
             var file = Path.Combine (Directory.GetCurrentDirectory (),
-                "api", "docs.pdf");
+                "api", "fakeDocs.pdf");
 
             return PhysicalFile (file, "application/pdf");
 

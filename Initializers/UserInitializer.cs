@@ -30,7 +30,7 @@ namespace mockAPI
         {
             new User()
             {
-                Email = "preese13",
+                Email = "guest@example.com",
                 Password = "3+RugNOxVHDCxvYtbh5AcA==",
             }
         };
