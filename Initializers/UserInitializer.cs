@@ -31,7 +31,7 @@ namespace mockAPI
             new User()
             {
                 Email = "guest@example.com",
-                Password = "3+RugNOxVHDCxvYtbh5AcA==",
+                Password = "ReIiHShm9rSkAhQHne9M9A==",
             }
         };
     }
