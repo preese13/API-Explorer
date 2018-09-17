@@ -1,11 +1,3 @@
-Install .Net Core
-
-'dotnet run'
-
-
-username: guest@example.com 
-password: password
-
 
 To make postmant requests:
     
