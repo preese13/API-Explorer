@@ -7,7 +7,7 @@ To make postmant requests:
 
 Some notes:
 
-AUTHORIZATION / AUTHENTICATION:
+## AUTHORIZATION / AUTHENTICATION:
 
 I first attempted to use some standard .net core implementations:
 
@@ -81,7 +81,7 @@ the login/signup pages contain a form that makes a post request to the controlle
 The pages are also written in (temporary) inline styles, as they were a late addition to the project and I didn't want to hook them up to the _layout page
 
 
-SERVING THE SWAGGER DOCUMENT:
+## SERVING THE SWAGGER DOCUMENT:
 
 All swagger information is currently contained in the api folder for the following reasons:
 
@@ -135,7 +135,7 @@ models were deliberately left out of the traditional mvc pattern to avoid pollut
 the swagger document ignores  the authentication and partner specific endpoints as the former isnt really necessary for a developer to learn how the API works and the latter is duh.  The swagger middleare does allow for you to specify different swagger documents and point different enpoints to each of them, but it does not allow me to restrict access to them in any meaningfiul way, so I just ignored those endpoints.
 
 
-NAVIGATION:
+## NAVIGATION:
 navigation within the "swagger" pages is smple: use jquery to trigger css classes that hide/display specific elements on click.
 navigating TO the swagger document FROM other pages had an issue:  whenever the user navigates to a swagger page from an MVC page, it opens to its 
 default section (Definitions). but, sometimes the user is navigating to a separate section, eg: models. so its obviously a problem that when the page is loaded it always goes
